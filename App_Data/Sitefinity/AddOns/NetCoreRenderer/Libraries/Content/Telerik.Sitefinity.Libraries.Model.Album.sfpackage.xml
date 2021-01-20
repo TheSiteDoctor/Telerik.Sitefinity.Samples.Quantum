@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="https://localhost/Sitefinity/CMIS/RestAtom/">
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="http://localhost:5001/Sitefinity/CMIS/RestAtom/">
   <cmisra:object>
     <cmis:properties>
       <cmis:propertyBoolean propertyDefinitionId="sf:ResizeOnUpload">
@@ -69,9 +69,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.LibraryUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;09065b2c-f72e-4783-aceb-68d9fd325037&lt;/Id&gt;
+  &lt;Id&gt;f63140cc-4011-4a59-ac59-d704424bb32c&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-11-16T13:11:44.37Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:16:45.23Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fdefault-album&lt;/Url&gt;
@@ -196,9 +196,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.LibraryUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;dae418f5-b2ac-4295-9747-fa4d67a0b0ec&lt;/Id&gt;
+  &lt;Id&gt;e9dad9da-3d6f-49ef-af80-13ad191992f0&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:21.927Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:38.117Z&lt;/LastModified&gt;
   &lt;QueryString&gt;&lt;/QueryString&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fquantum-sample-page&lt;/Url&gt;
@@ -288,7 +288,7 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyString propertyDefinitionId="sf:Url">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/a1.png?sfvrsn=43fbcc09_0</cmis:value>
+        <cmis:value>http://localhost:5001/images/default-source/quantum-sample-page/a1.png?sfvrsn=43fbcc09_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
         <cmis:value>System.IO.Stream</cmis:value>
@@ -353,9 +353,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.MediaUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;2e41dd4f-0ea1-439a-9648-1355714ad639&lt;/Id&gt;
+  &lt;Id&gt;70a0ac60-eeba-4e44-bade-2e60ae0d9592&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:22.707Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:39.657Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fimages%2fdefault-source%2fquantum-sample-page%2fa1&lt;/Url&gt;
@@ -372,7 +372,7 @@
         <cmis:value>3a2ebbe0-dc1a-4ba0-b119-d2629bac56b9</cmis:value>
       </cmis:propertyId>
       <cmis:propertyString propertyDefinitionId="sf:EmbedUrl">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/a1.png?sfvrsn=43fbcc09_0</cmis:value>
+        <cmis:value>http://localhost/images/default-source/quantum-sample-page/a1.png?sfvrsn=43fbcc09_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
         <cmis:value>Database</cmis:value>
@@ -477,7 +477,7 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyString propertyDefinitionId="sf:Url">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/logo.png?sfvrsn=6f49cfb4_0</cmis:value>
+        <cmis:value>http://localhost:5001/images/default-source/quantum-sample-page/logo.png?sfvrsn=6f49cfb4_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
         <cmis:value>System.IO.Stream</cmis:value>
@@ -542,9 +542,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.MediaUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;9998f60c-2878-49f5-a247-d305e84d07b6&lt;/Id&gt;
+  &lt;Id&gt;5fae287d-7eca-4354-93d4-aa14af1fcdbb&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:22.63Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:39.52Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fimages%2fdefault-source%2fquantum-sample-page%2flogo&lt;/Url&gt;
@@ -561,7 +561,7 @@
         <cmis:value>3a2ebbe0-dc1a-4ba0-b119-d2629bac56b9</cmis:value>
       </cmis:propertyId>
       <cmis:propertyString propertyDefinitionId="sf:EmbedUrl">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/logo.png?sfvrsn=6f49cfb4_0</cmis:value>
+        <cmis:value>http://localhost/images/default-source/quantum-sample-page/logo.png?sfvrsn=6f49cfb4_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
         <cmis:value>Database</cmis:value>
@@ -666,7 +666,7 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyString propertyDefinitionId="sf:Url">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/john.png?sfvrsn=c64a4d1b_0</cmis:value>
+        <cmis:value>http://localhost:5001/images/default-source/quantum-sample-page/john.png?sfvrsn=c64a4d1b_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
         <cmis:value>System.IO.Stream</cmis:value>
@@ -731,9 +731,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.MediaUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;bb505a32-6377-43ab-b34a-575b749e31c2&lt;/Id&gt;
+  &lt;Id&gt;b0c3307e-d8a6-4d7e-966a-877fa8bd01a3&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:22.557Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:39.373Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fimages%2fdefault-source%2fquantum-sample-page%2fjohn&lt;/Url&gt;
@@ -752,7 +752,7 @@
         <cmis:value>3a2ebbe0-dc1a-4ba0-b119-d2629bac56b9</cmis:value>
       </cmis:propertyId>
       <cmis:propertyString propertyDefinitionId="sf:EmbedUrl">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/john.png?sfvrsn=c64a4d1b_0</cmis:value>
+        <cmis:value>http://localhost/images/default-source/quantum-sample-page/john.png?sfvrsn=c64a4d1b_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
         <cmis:value>Database</cmis:value>
@@ -857,7 +857,7 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyString propertyDefinitionId="sf:Url">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/lea.png?sfvrsn=27b8b954_0</cmis:value>
+        <cmis:value>http://localhost:5001/images/default-source/quantum-sample-page/lea.png?sfvrsn=27b8b954_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
         <cmis:value>System.IO.Stream</cmis:value>
@@ -922,9 +922,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.MediaUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;e36d94f7-9074-470b-bad8-2a22d71f25c9&lt;/Id&gt;
+  &lt;Id&gt;e2b3633c-0541-481c-b65b-c89389e90bc1&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:22.487Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:39.233Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fimages%2fdefault-source%2fquantum-sample-page%2flea&lt;/Url&gt;
@@ -943,7 +943,7 @@
         <cmis:value>3a2ebbe0-dc1a-4ba0-b119-d2629bac56b9</cmis:value>
       </cmis:propertyId>
       <cmis:propertyString propertyDefinitionId="sf:EmbedUrl">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/lea.png?sfvrsn=27b8b954_0</cmis:value>
+        <cmis:value>http://localhost/images/default-source/quantum-sample-page/lea.png?sfvrsn=27b8b954_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
         <cmis:value>Database</cmis:value>
@@ -1048,7 +1048,7 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyString propertyDefinitionId="sf:Url">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/a3.png?sfvrsn=83a9563_0</cmis:value>
+        <cmis:value>http://localhost:5001/images/default-source/quantum-sample-page/a3.png?sfvrsn=83a9563_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
         <cmis:value>System.IO.Stream</cmis:value>
@@ -1113,9 +1113,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.MediaUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;b289f93f-d882-447a-89b4-94a69c055e51&lt;/Id&gt;
+  &lt;Id&gt;56497a93-420a-4846-af13-c81915e4b830&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:22.42Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:39.09Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fimages%2fdefault-source%2fquantum-sample-page%2fa3&lt;/Url&gt;
@@ -1132,7 +1132,7 @@
         <cmis:value>3a2ebbe0-dc1a-4ba0-b119-d2629bac56b9</cmis:value>
       </cmis:propertyId>
       <cmis:propertyString propertyDefinitionId="sf:EmbedUrl">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/a3.png?sfvrsn=83a9563_0</cmis:value>
+        <cmis:value>http://localhost/images/default-source/quantum-sample-page/a3.png?sfvrsn=83a9563_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
         <cmis:value>Database</cmis:value>
@@ -1237,7 +1237,7 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyString propertyDefinitionId="sf:Url">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/a2.png?sfvrsn=c40e01c5_0</cmis:value>
+        <cmis:value>http://localhost:5001/images/default-source/quantum-sample-page/a2.png?sfvrsn=c40e01c5_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
         <cmis:value>System.IO.Stream</cmis:value>
@@ -1302,9 +1302,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.MediaUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;5354d9c0-6a11-47c5-a2e8-9fc6bbb98e11&lt;/Id&gt;
+  &lt;Id&gt;746ae97b-86ac-4f54-9b4d-7dbc4081f87e&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:22.347Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:38.943Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fimages%2fdefault-source%2fquantum-sample-page%2fa2&lt;/Url&gt;
@@ -1321,7 +1321,7 @@
         <cmis:value>3a2ebbe0-dc1a-4ba0-b119-d2629bac56b9</cmis:value>
       </cmis:propertyId>
       <cmis:propertyString propertyDefinitionId="sf:EmbedUrl">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/a2.png?sfvrsn=c40e01c5_0</cmis:value>
+        <cmis:value>http://localhost/images/default-source/quantum-sample-page/a2.png?sfvrsn=c40e01c5_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
         <cmis:value>Database</cmis:value>
@@ -1426,7 +1426,7 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyString propertyDefinitionId="sf:Url">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/a4.png?sfvrsn=9f9a6e45_0</cmis:value>
+        <cmis:value>http://localhost:5001/images/default-source/quantum-sample-page/a4.png?sfvrsn=9f9a6e45_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
         <cmis:value>System.IO.Stream</cmis:value>
@@ -1491,9 +1491,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.MediaUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;9b67ec66-8233-4be5-b301-53eaa93eae63&lt;/Id&gt;
+  &lt;Id&gt;2b54a1f0-727f-4e3f-8bcd-40c02683363a&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:22.267Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:38.8Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fimages%2fdefault-source%2fquantum-sample-page%2fa4&lt;/Url&gt;
@@ -1510,7 +1510,7 @@
         <cmis:value>3a2ebbe0-dc1a-4ba0-b119-d2629bac56b9</cmis:value>
       </cmis:propertyId>
       <cmis:propertyString propertyDefinitionId="sf:EmbedUrl">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/a4.png?sfvrsn=9f9a6e45_0</cmis:value>
+        <cmis:value>http://localhost/images/default-source/quantum-sample-page/a4.png?sfvrsn=9f9a6e45_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
         <cmis:value>Database</cmis:value>
@@ -1615,7 +1615,7 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyString propertyDefinitionId="sf:Url">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/mobile.png?sfvrsn=f1b3548a_0</cmis:value>
+        <cmis:value>http://localhost:5001/images/default-source/quantum-sample-page/mobile.png?sfvrsn=f1b3548a_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
         <cmis:value>System.IO.Stream</cmis:value>
@@ -1680,9 +1680,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.MediaUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;ff7527e9-150b-4625-a2ca-ac72ae856499&lt;/Id&gt;
+  &lt;Id&gt;0c47ff32-f9c0-4b46-97ab-a7e162b1624b&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:22.197Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:38.657Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fimages%2fdefault-source%2fquantum-sample-page%2fmobile&lt;/Url&gt;
@@ -1699,7 +1699,7 @@
         <cmis:value>3a2ebbe0-dc1a-4ba0-b119-d2629bac56b9</cmis:value>
       </cmis:propertyId>
       <cmis:propertyString propertyDefinitionId="sf:EmbedUrl">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/mobile.png?sfvrsn=f1b3548a_0</cmis:value>
+        <cmis:value>http://localhost/images/default-source/quantum-sample-page/mobile.png?sfvrsn=f1b3548a_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
         <cmis:value>Database</cmis:value>
@@ -1804,7 +1804,7 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyString propertyDefinitionId="sf:Url">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/laptop.png?sfvrsn=9887f174_0</cmis:value>
+        <cmis:value>http://localhost:5001/images/default-source/quantum-sample-page/laptop.png?sfvrsn=9887f174_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
         <cmis:value>System.IO.Stream</cmis:value>
@@ -1869,9 +1869,9 @@
         <cmis:value>&lt;Telerik.Sitefinity.Libraries.Model.MediaUrlData&gt;
   &lt;Culture&gt;127&lt;/Culture&gt;
   &lt;Disabled&gt;false&lt;/Disabled&gt;
-  &lt;Id&gt;016e7835-a06a-4abf-9664-308455e3fbf7&lt;/Id&gt;
+  &lt;Id&gt;9fe66aa5-9a08-47a1-ab58-c3728407ed08&lt;/Id&gt;
   &lt;IsDefault&gt;true&lt;/IsDefault&gt;
-  &lt;LastModified&gt;2020-12-02T11:08:22.093Z&lt;/LastModified&gt;
+  &lt;LastModified&gt;2021-01-20T10:20:38.497Z&lt;/LastModified&gt;
   &lt;QueryString /&gt;
   &lt;RedirectToDefault&gt;false&lt;/RedirectToDefault&gt;
   &lt;Url&gt;%2fimages%2fdefault-source%2fquantum-sample-page%2flaptop&lt;/Url&gt;
@@ -1888,7 +1888,7 @@
         <cmis:value>3a2ebbe0-dc1a-4ba0-b119-d2629bac56b9</cmis:value>
       </cmis:propertyId>
       <cmis:propertyString propertyDefinitionId="sf:EmbedUrl">
-        <cmis:value>https://localhost/images/default-source/quantum-sample-page/laptop.png?sfvrsn=9887f174_0</cmis:value>
+        <cmis:value>http://localhost/images/default-source/quantum-sample-page/laptop.png?sfvrsn=9887f174_0</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:BlobStorageProvider">
         <cmis:value>Database</cmis:value>

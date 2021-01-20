@@ -1,5 +1,116 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="https://localhost/Sitefinity/CMIS/RestAtom/">
+<atom:entry xmlns:app="http://www.w3.org/2007/app" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cmis="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:cmisra="http://docs.oasis-open.org/ns/cmis/restatom/200908/" xmlns:sf="urn:telerik:sitefinity:cmis" xml:base="http://localhost:5001/Sitefinity/CMIS/RestAtom/">
+  <cmisra:object>
+    <cmis:properties>
+      <cmis:propertyId propertyDefinitionId="sf:Id">
+        <cmis:value>2ce40b52-89a2-4b31-8476-541fcdff956c</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:Name" />
+      <cmis:propertyString propertyDefinitionId="sf:UrlName">
+        <cmis:value>netcore-renderer</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:EnableDefaultCanonicalUrl" />
+      <cmis:propertyString propertyDefinitionId="sf:Title">
+        <cmis:value>Net Core Renderer</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:Description">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:ShowInNavigation">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:RenderAsLink">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowMultipleUrls">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AdditionalUrlsRedirectToDefaultOne">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyDecimal propertyDefinitionId="sf:Ordinal">
+        <cmis:value>3</cmis:value>
+      </cmis:propertyDecimal>
+      <cmis:propertyString propertyDefinitionId="sf:Attributes" sf:collectionType="IDictionary" />
+      <cmis:propertyId propertyDefinitionId="sf:PageId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:ParentId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyId propertyDefinitionId="sf:PreviousParentId" />
+      <cmis:propertyId propertyDefinitionId="sf:RootNodeId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyInteger propertyDefinitionId="sf:NodeType">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyString propertyDefinitionId="sf:RedirectUrl">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="sf:LinkedNodeId">
+        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+      </cmis:propertyId>
+      <cmis:propertyString propertyDefinitionId="sf:LinkedNodeProvider" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:OpenNewWindow">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsBackend">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:CanBeSplit">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:Extension">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyBoolean propertyDefinitionId="sf:AllowParametersValidation">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ModuleName" />
+      <cmis:propertyInteger propertyDefinitionId="sf:LocalizationStrategy">
+        <cmis:value>0</cmis:value>
+      </cmis:propertyInteger>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IsSplitPage">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:Crawlable">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:RequireSsl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSearchIndex">
+        <cmis:value>True</cmis:value>
+      </cmis:propertyBoolean>
+      <sf:Telerik.Sitefinity.Pages.Model.PageUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable" />
+      <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
+        <cmis:value>False</cmis:value>
+      </cmis:propertyBoolean>
+      <cmis:propertyString propertyDefinitionId="sf:ApprovalWorkflowState">
+        <cmis:value></cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyId propertyDefinitionId="cmis:objectId">
+        <cmis:value>2ce40b52-89a2-4b31-8476-541fcdff956c</cmis:value>
+      </cmis:propertyId>
+      <sf:System.Object propertyDefinitionId="sf:Author" />
+      <cmis:propertyString propertyDefinitionId="cmis:objectTypeId">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageNode</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:LangId">
+        <cmis:value>en</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ItemAction">
+        <cmis:value>New</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyString propertyDefinitionId="sf:ParentType">
+        <cmis:value>Telerik.Sitefinity.Pages.Model.PageNode</cmis:value>
+      </cmis:propertyString>
+      <cmis:propertyFloat propertyDefinitionId="sf:SitemapPriority">
+        <cmis:value>1</cmis:value>
+      </cmis:propertyFloat>
+    </cmis:properties>
+  </cmisra:object>
   <cmisra:object>
     <cmis:properties>
       <cmis:propertyId propertyDefinitionId="sf:Id">
@@ -29,14 +140,14 @@
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
       <cmis:propertyDecimal propertyDefinitionId="sf:Ordinal">
-        <cmis:value>2</cmis:value>
+        <cmis:value>1</cmis:value>
       </cmis:propertyDecimal>
       <cmis:propertyString propertyDefinitionId="sf:Attributes" sf:collectionType="IDictionary" />
       <cmis:propertyId propertyDefinitionId="sf:PageId">
         <cmis:value>093ba779-b788-4abf-b445-362ae44a4ddc</cmis:value>
       </cmis:propertyId>
       <cmis:propertyId propertyDefinitionId="sf:ParentId">
-        <cmis:value>00000000-0000-0000-0000-000000000000</cmis:value>
+        <cmis:value>2ce40b52-89a2-4b31-8476-541fcdff956c</cmis:value>
       </cmis:propertyId>
       <cmis:propertyId propertyDefinitionId="sf:PreviousParentId" />
       <cmis:propertyId propertyDefinitionId="sf:RootNodeId">
@@ -83,7 +194,18 @@
       <cmis:propertyBoolean propertyDefinitionId="sf:IncludeInSearchIndex">
         <cmis:value>True</cmis:value>
       </cmis:propertyBoolean>
-      <sf:Telerik.Sitefinity.Pages.Model.PageUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable" />
+      <sf:Telerik.Sitefinity.Pages.Model.PageUrlData propertyDefinitionId="sf:Urls" sf:collectionType="IEnumerable">
+        <cmis:value>&lt;Telerik.Sitefinity.Pages.Model.PageUrlData&gt;
+  &lt;Culture&gt;127&lt;/Culture&gt;
+  &lt;Disabled&gt;false&lt;/Disabled&gt;
+  &lt;Id&gt;1ef4a4ba-1364-4b6a-bacb-1b66d7d3b860&lt;/Id&gt;
+  &lt;IsDefault&gt;false&lt;/IsDefault&gt;
+  &lt;LastModified&gt;2021-01-20T10:29:50.497Z&lt;/LastModified&gt;
+  &lt;QueryString /&gt;
+  &lt;RedirectToDefault&gt;true&lt;/RedirectToDefault&gt;
+  &lt;Url&gt;%7e%2fquantum-sample-page&lt;/Url&gt;
+&lt;/Telerik.Sitefinity.Pages.Model.PageUrlData&gt;</cmis:value>
+      </sf:Telerik.Sitefinity.Pages.Model.PageUrlData>
       <cmis:propertyBoolean propertyDefinitionId="sf:AutoGenerateUniqueUrl">
         <cmis:value>False</cmis:value>
       </cmis:propertyBoolean>
@@ -224,7 +346,7 @@
         <cmis:value>0</cmis:value>
       </cmis:propertyInteger>
       <cmis:propertyInteger propertyDefinitionId="sf:BuildStamp">
-        <cmis:value>35</cmis:value>
+        <cmis:value>36</cmis:value>
       </cmis:propertyInteger>
       <cmis:propertyId propertyDefinitionId="sf:NavigationNodeId">
         <cmis:value>1cb397c5-11b3-4bb3-85b5-adb07735e204</cmis:value>
@@ -267,7 +389,7 @@
         <cmis:value>NetCore</cmis:value>
       </cmis:propertyString>
       <cmis:propertyInteger propertyDefinitionId="sf:Flags">
-        <cmis:value>0</cmis:value>
+        <cmis:value>1</cmis:value>
       </cmis:propertyInteger>
       <cmis:propertyId propertyDefinitionId="sf:PageNodeId">
         <cmis:value>1cb397c5-11b3-4bb3-85b5-adb07735e204</cmis:value>
@@ -7182,10 +7304,10 @@
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:Validation" />
       <cmis:propertyString propertyDefinitionId="sf:MultilingualValue">
-        <cmis:value>{"ItemIdsOrdered":["c8ac7ae9-215b-406c-a450-e7e171535a33","9adb412a-1f65-4849-985d-2f8e7babeb0f"],"Content":[{"Variations":[{"Source":"OpenAccessProvider","Filter":{"Key":"Ids","Value":"c8ac7ae9-215b-406c-a450-e7e171535a33,9adb412a-1f65-4849-985d-2f8e7babeb0f"}}]}]}</cmis:value>
+        <cmis:value>{"ItemIdsOrdered":["c8ac7ae9-215b-406c-a450-e7e171535a33","9adb412a-1f65-4849-985d-2f8e7babeb0f"],"Content":[{"Variations":[{"Source":"dynamicProvider2","Filter":{"Key":"Ids","Value":"c8ac7ae9-215b-406c-a450-e7e171535a33,9adb412a-1f65-4849-985d-2f8e7babeb0f"}}]}]}</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:Value">
-        <cmis:value>{"ItemIdsOrdered":["c8ac7ae9-215b-406c-a450-e7e171535a33","9adb412a-1f65-4849-985d-2f8e7babeb0f"],"Content":[{"Variations":[{"Source":"OpenAccessProvider","Filter":{"Key":"Ids","Value":"c8ac7ae9-215b-406c-a450-e7e171535a33,9adb412a-1f65-4849-985d-2f8e7babeb0f"}}]}]}</cmis:value>
+        <cmis:value>{"ItemIdsOrdered":["c8ac7ae9-215b-406c-a450-e7e171535a33","9adb412a-1f65-4849-985d-2f8e7babeb0f"],"Content":[{"Variations":[{"Source":"dynamicProvider2","Filter":{"Key":"Ids","Value":"c8ac7ae9-215b-406c-a450-e7e171535a33,9adb412a-1f65-4849-985d-2f8e7babeb0f"}}]}]}</cmis:value>
       </cmis:propertyString>
       <cmis:propertyString propertyDefinitionId="sf:Caption" />
       <cmis:propertyString propertyDefinitionId="sf:Description" />
