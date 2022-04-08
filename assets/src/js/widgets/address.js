@@ -53,38 +53,40 @@ function initCart(rootElement) {
                     }
                 }
 
-                this.$http.post(this.purl + '/uc/checkout/address', requestData).then((response) => {
-                    if (response.data) {
-                        var data = response.data;
+                console.warn('Using right file');
+            // NOTE: Temporarily disabled the "Save as you go" logic as it resulted in multiple address interaction submissions
+            //    this.$http.post(this.purl + '/uc/checkout/address', requestData).then((response) => {
+            //        if (response.data) {
+            //            var data = response.data;
 
-                        store.commit('update');
+            //            store.commit('update');
 
-                        if (data.Status) {
-                            if (fieldName) {
-                                if (typeof data.Data.errors[fieldName] !== 'undefined' && data.Data.errors[fieldName].length > 0)
-                                {
-                                    if (data.Data.errors && data.Data.errors[fieldName].length) {
-                                        callback(false, data.Data.errors[fieldName]);
-                                    }
-                                }
-                                else
-                                {
-                                    callback(true, '');
-                                }
-                            } else if (data.Status == 'success') {
-                                callback(true, '');
-                            } else {
-                                if (!doNotHighlight) {
-                                    this.highlightFields(data.Data.errors);
-                                }
+            //            if (data.Status) {
+            //                if (fieldName) {
+            //                    if (data.Data && data.Data.errors && (typeof data.Data.errors[fieldName] !== 'undefined' && data.Data.errors[fieldName].length > 0))
+            //                    {
+            //                        if (data.Data.errors && data.Data.errors[fieldName].length) {
+            //                            callback(false, data.Data.errors[fieldName]);
+            //                        }
+            //                    }
+            //                    else
+            //                    {
+            //                        callback(true, '');
+            //                    }
+            //                } else if (data.Status == 'success') {
+            //                    callback(true, '');
+            //                } else {
+            //                    if (!doNotHighlight) {
+            //                        this.highlightFields(data.Data.errors);
+            //                    }
 
-                                callback(false, data.Message);
-                            }
-                        } else {
-                            callback(false, '');
-                        }
-                    }
-                });
+            //                    callback(false, data.Message);
+            //                }
+            //            } else {
+            //                callback(false, '');
+            //            }
+            //        }
+            //    });
             },
             continueFn: function(callback) {
                 this.submit(null, false, callback);
